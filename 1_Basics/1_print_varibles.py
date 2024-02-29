@@ -4,6 +4,7 @@ y = "John"
 print(x)
 print(y)
 print("Hello, World!")
+print("Python is Fun!")
 
 # Method 2
 name = "M. Huzaifa"
