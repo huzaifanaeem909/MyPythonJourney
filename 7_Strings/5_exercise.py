@@ -1,11 +1,11 @@
 """Ask a string from user. Count how many alphabets are there in that string."""
 
-# my_string = input("Enter a String= ")
-# count = 0
-# for ch in my_string:
-#     if ch.isalpha():
-#         count += 1
-# print(count)
+my_string = input("Enter a String= ")
+count = 0
+for ch in my_string:
+    if ch.isalpha():
+        count += 1
+print(count)
 
 # Another solution:
 
@@ -19,16 +19,16 @@ print(count)
 
 """Ask a string from user. Count the number of uppercase and lowercase characters in that String."""
 
-# my_string = input("Enter a String= ")
-# count_upper = 0
-# count_lower = 0
-# for ch in my_string:
-#     if ch.isupper():
-#         count_upper += 1
-#     elif ch.islower():
-#         count_lower += 1
-# print(count_upper)
-# print(count_lower)
+my_string = input("Enter a String= ")
+count_upper = 0
+count_lower = 0
+for ch in my_string:
+    if ch.isupper():
+        count_upper += 1
+    elif ch.islower():
+        count_lower += 1
+print(count_upper)
+print(count_lower)
 
 # Another solution:
 
@@ -46,9 +46,9 @@ print(count_lower)
 
 """Ask a string from user. Convert all the alphabets to uppercase."""
 
-# my_string = input("Enter a String= ")
-# new_string = my_string.upper()
-# print(new_string)
+my_string = input("Enter a String= ")
+new_string = my_string.upper()
+print(new_string)
 
 # Another solution:
 
@@ -66,9 +66,9 @@ print(result)
 
 """Ask a string from user. Convert all the alphabets to lowercase."""
 
-# my_string = input("Enter a String= ")
-# new_string = my_string.lower()
-# print(new_string)
+my_string = input("Enter a String= ")
+new_string = my_string.lower()
+print(new_string)
 
 # Another solution:
 
@@ -86,9 +86,9 @@ print(result)
 
 """Ask a string from user. Convert uppercase to lowercase and convert lowercase to uppercase and dont change the other letters."""
 
-# my_string = input("Enter a String= ")
-# new_string = my_string.upper()
-# print(new_string)
+my_string = input("Enter a String= ")
+new_string = my_string.upper()
+print(new_string)
 
 # Another solution:
 
@@ -111,12 +111,12 @@ print(result)
 
 """ Count the number of spaces in a string entered by user."""
 
-# my_string = input("Enter a String= ")
-# count = 0
-# for ch in my_string:
-#     if ch.isspace():
-#         count += 1
-# print(count)
+my_string = input("Enter a String= ")
+count = 0
+for ch in my_string:
+    if ch.isspace():
+        count += 1
+print(count)
 
 # Another solution:
 
@@ -176,14 +176,14 @@ print(output)
 """Write a program that converts a string in camel_case to snake_case.
 For example, converting "helloWorldHowAreYou" should result in "hello_world_how_are_you"."""
 
-# my_string = "helloWorldHowAreYou"
-# result = ""
-# for char in my_string:
-#     if char.isupper():
-#         result += "_" + char.lower()
-#     else:
-#         result += char
-# print(result)
+my_string = "helloWorldHowAreYou"
+result = ""
+for char in my_string:
+    if char.isupper():
+        result += "_" + char.lower()
+    else:
+        result += char
+print(result)
 
 # Another Solution:
 
