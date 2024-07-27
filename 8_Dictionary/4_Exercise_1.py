@@ -1,12 +1,12 @@
 """ Ask subject name and marks from the user and keep adding it to dictionary. """
 
-# my_dict = {}
-# total_subjects = int(input("Enter the number of subjects= "))
-# for _ in range(0, total_subjects):
-#     subject_name = input("Enter Subject name: ")
-#     subject_marks = int(input(f"Enter Marks for {subject_name}: "))
-#     my_dict[subject_name] = subject_marks
-# print(my_dict)
+my_dict = {}
+total_subjects = int(input("Enter the number of subjects= "))
+for _ in range(0, total_subjects):
+    subject_name = input("Enter Subject name: ")
+    subject_marks = int(input(f"Enter Marks for {subject_name}: "))
+    my_dict[subject_name] = subject_marks
+print(my_dict)
 
 """Convert two lists into a dictionary. Make two list on your own of same length, and convert them to dictionary. """
 
@@ -48,14 +48,14 @@ print(total)
 """Ask a string from user. Display the dictionary where each key is a character and 
 value is the frequency of that character that comes in that string."""
 
-# my_string = input("Enter a String: ")
-# my_dict = {}
-# for ch in my_string:
-#     if ch in my_dict:
-#         my_dict[ch] += 1
-#     else:
-#         my_dict[ch] = 1
-# print(my_dict)
+my_string = input("Enter a String: ")
+my_dict = {}
+for ch in my_string:
+    if ch in my_dict:
+        my_dict[ch] += 1
+    else:
+        my_dict[ch] = 1
+print(my_dict)
 
 """Store “name” of a student as Key, “list of 5 marks” of that student as a Value. 
 Store atleast 5 student names. Print the sum and percentage of all the students."""
@@ -87,10 +87,10 @@ my_dict = {
 }
 subject_name = input("Enter Subject Name: ")
 # Method 1:
-# if subject_name in my_dict:
-#     print(f"Marks for {subject_name}: {my_dict[subject_name]}")
-# else:
-#     print("Invalid")
+if subject_name in my_dict:
+    print(f"Marks for {subject_name}: {my_dict[subject_name]}")
+else:
+    print("Invalid")
 
 # Method 2:
 for subject, marks in my_dict.items():
