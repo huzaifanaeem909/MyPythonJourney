@@ -12,6 +12,9 @@ Output: [1, 2]
 Explanation: nums[1] + nums[2] = 2 + 4 = 6.
 """
 
+# Time Complexity: O(n)
+# Auxiliary Space: O(n)
+
 def twoSum(nums, target):
     num_map = {}
     
